@@ -1,0 +1,280 @@
+body {
+    background-color: #1a202c;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+    width:100%;
+    margin: 0 auto;
+}
+
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-links {
+    margin: 1rem 0;
+    display: flex;
+}
+
+.nav-link, .nav-link-title {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    margin: 1rem 0;
+    
+
+}
+
+.nav-link-title>span {
+    color: #f56565;
+}
+
+.nav-link {
+    padding: 0 1rem;
+}
+
+.about-container {
+    margin: 4rem auto;
+    padding: 1rem 0;
+    background-color: #f2f2f2;
+    color: #000;
+    max-width: 650px;
+    border-radius: 1rem;
+    box-shadow: 0 2px 2px 2px #f2f2f2;
+}
+
+.hero-image{
+    margin: 0 auto;
+    display: block;
+    padding: 1rem 0;
+    height: auto;
+    max-width: 50%;
+    border-radius: 50%;
+}
+
+.title, .details, .description {
+    text-align: center;
+    font-size: 14px;
+    line-height: 20px;
+    padding: 0 1rem;
+}
+
+.description {
+    line-height: 30px;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+}
+
+.social-image {
+    width: 30px;
+    height: 30px;
+    margin: 0 2rem;
+}
+
+
+.institution-items-container {
+    display: flex;
+   
+}
+
+
+.institute-image {
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+    display: block;
+    padding: 1rem;
+    border: 1px solid lightgrey;
+    border-radius: 15px;
+    box-shadow: rgba(196 196 196 / 30%) 0px 5px 15px;
+
+}
+
+.institution-name,
+.degree-nam,
+.skills-title {
+    text-align: center;
+    font-size: 14px;
+    line-height:22px; 
+}
+
+.institute-image:hover {
+    background-color: #f2f2f2;
+
+}
+
+.institution-items {
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.research-interest-container {
+
+    padding-left: 4px;
+    border: 1px solid #f2f2f2;
+    border-radius: 1rem;
+   
+}
+
+.experience-container{
+    padding: 1.5rem 0 1rem 0;
+}
+
+.experience-item {
+    padding-top: 10px;
+}
+
+li {
+    list-style: square;
+    margin: 0.8rem 0;
+}
+
+.skills-container {
+    background-color: #f2f2f2;
+    margin: 4rem auto;
+    padding: 2rem 0;
+    color: black;
+    border-radius: 15px;
+    box-shadow: 0 2px 2px 2px #f2f2f2;
+}
+.skills-title {
+    font-size: 18px;
+    line-height: 26px;
+    color: #102940;
+}
+
+#course-table {
+    border-collapse: collapse;
+    width: 100%;
+    margin: 2rem 0;
+    cursor: pointer;
+
+}
+
+#course-table td, #course-table th {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+
+}
+
+#course-table th {
+    padding: 12px 0;
+    text-align: center;
+    background-color: #f56565;
+    color: #102940;
+
+}
+
+#course-table tbody:nth-child(even) {
+    background-color:#5885AF;
+    font-weight: 700;
+    color: black;
+
+}
+
+#course-table tr:hover {
+    background-color: #274472;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.achievements-container {
+    background-color:#fff;
+    color: black;
+    margin: 4rem auto;
+    padding: 2rem 0;
+    border-radius: 15px;
+    box-shadow: 0 2px 2px 2px #f2f2f2;
+}
+
+.achievement-items {
+    list-style-type: none;
+}
+
+
+.interest-container {
+    background-color:#fff;
+    color: black;
+    margin-top: -10px;
+    /* margin: auto; */
+    padding: 2rem 0;
+    border-radius: 15px;
+    box-shadow: 0 2px 2px 2px #f2f2f2;
+}
+
+.interest-items {
+    list-style-type: none;
+}
+
+footer {
+    margin: 3rem auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 1200px) {
+    .container{
+        max-width: 1180px;
+    }
+}
+
+@media (min-width: 980px) {
+    .container{
+        max-width: 960px;
+    }
+}
+
+@media (max-width: 768px) {
+    .container{
+        max-width: 720px;
+    }
+}
+
+@media (max-width: 576px) {
+
+    .container{
+        max-width: 540px;
+    }
+}
